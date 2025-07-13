@@ -1,0 +1,102 @@
+body {
+padding: 0;
+margin: 0;
+ height: 100vh;
+ width: 100vw; 
+  display: grid;
+  justify-content: center;
+  gap:3px;
+  background:linear-gradient(30deg,#141414,#000000);
+  color: white;
+  font-family: serif;
+}
+header {
+padding: 160px;
+
+margin: 0;
+  box-sizing: border-box;
+ width: 100vw; background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../images/girl.jpg")no-repeat center;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  place-items:center;
+}
+section{
+font-family: Monaco, impact;
+
+  text-align: center;
+  font-size: 11px;
+  display: grid;
+  place-items:center;
+  gap:22px;
+}
+#words {
+display: flex;
+flex-direction: row;
+padding: 0px;
+margin: 0;
+height: 35vh;
+width: 94vw;
+font-size: 17px;
+  text-align: right;
+}
+.frame{
+margin: 0;
+padding: 4px;
+  height: 40vh;
+  width: 97vw;
+  text-align: left;
+  font-size: 12px;
+  border: 0.3px white solid;
+  border-radius: 13px;
+  display: grid;
+  place-items:center;
+}
+
+span{
+  font-style: italic;
+}
+
+#part2 {
+  font-size: 15px;
+}
+button {
+  height: 40px;
+  width : 120px;
+  border: 0.5px grey solid;
+  font-family: serif;
+  color: white;
+  background: #ffffff89;
+}
+
+footer{
+padding: 10px;
+margin: 0;
+margin-top: 0px;
+  box-sizing: border-box;
+  width: 100vw;
+  border: 0.1px white solid;
+
+  background-color: black;
+  display: grid;
+  place-items:center;
+  gap:10px;
+}
+footer h5{
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+input {
+
+padding: 0;
+margin: 0;
+  height: 40px;
+  width : 240px;
+  border: 0.5px #ffffff7f solid;
+  font-family: serif;
+  color: white;
+  background: #ffffff89;
+}
