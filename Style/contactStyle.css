@@ -17,7 +17,7 @@ backdrop-filter:brightness(30%);
 background: transparent;
     font-size:10px;
     width :84vw;
-    height: 70vh;
+    box-sizing:border-box;
     text-align:center;
     font-style: normal;
     
