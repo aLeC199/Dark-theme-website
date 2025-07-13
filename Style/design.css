@@ -1,0 +1,124 @@
+body{
+   padding: 0;
+   margin: 0;
+   font-family: Georgia;
+   color :white;
+}
+header{
+    padding: 0;
+   margin-top: 0;
+   display: flex;
+   height: 65vh;
+   width:100%;
+background:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../images/stair.jpg") center ;
+   background-size: cover;
+  position :relative;
+   text-align:left;
+     overflow:hidden;
+}
+header p{
+    position : absolute ;
+    left:5px;
+    top:40%;
+font-size:40px; transform:translateY(-50%);
+}
+#overLay img, header img {
+    height: 25px;
+    width: 25px;
+}
+section{
+    padding: 0;
+    margin: 0;
+    height :66vh;
+    width:100vw;
+    background: black;     
+    color :#bfbfbf;
+    text-align: right;
+    font-size:20px;
+    font-style: oblique;
+    display:flex;
+    flex-direction: column;
+}
+img{
+    height: 80px;
+    width: 80px;
+}
+section p img {
+  float: left;
+  margin-right: 10px;
+}
+#sec3{
+    position : relative ;
+}
+
+#start{
+position: absolute;
+margin: auto;
+top:80%;
+  left: 50%; transform:translateX(-50%); 
+}
+
+footer{
+    padding: 0;
+    margin: 0;
+    height : 40vh;
+    background: black;
+    display :flex;
+    flex-direction:column;
+    gap:5px;
+    place-items:center;
+    text-align:center;
+}
+input{
+    padding: 2px;
+    margin: 0;
+    height: 35px;
+    width:70vw;
+    border: none;
+    border-radius:25px;
+    background :#bfbfbf59;
+    gap:12px;
+}
+
+button{
+    height: 35px;
+    width:70vw;
+    border:none;
+   color: white; border-radius:25px;
+    background :#5558fff5;
+    
+}
+#filter{
+top:0;
+    height: 303.06vh;
+    width: 100%; background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+    position: absolute ;
+    visibility: hidden ;
+}
+
+
+
+#overLay{
+    padding: 0;
+    margin: 0;
+    background :#000000;
+    box-sizing: border-box;
+    top:0;
+    position : absolute;
+    font-style:normal;
+    text-align:left; backdrop-filter:brightness(90%);  
+    opacity:1;
+    visibility : hidden;
+    
+}
+
+button:hover{
+ background-color:#3333ff ;
+ color: white;
+ cursor: pointer;
+}
+
+
+a:hover{
+    color:#ffb355;
+}
